@@ -1,2 +1,2 @@
-# computer_shop-crud-node
-This project is for evaluation of the technical degree programming course
+# node-express-sequelize-crud
+Generate a CRUD as server side in node.js, express, sequelize and a database connection.
