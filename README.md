@@ -1,3 +1,6 @@
+
+## Anothers language for this documentation
+To access the PT-BR version of this document [click here](https://github.com/jamersonnascimento/computer_shop-crud-node/blob/main/LEIA-ME.md)
 # API CRUD Documentation (ORM)
 This document will cover everything you need to know for using the CRUD API.
 
