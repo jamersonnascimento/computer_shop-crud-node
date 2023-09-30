@@ -32,33 +32,4 @@ module.exports = (app) => {
     app.use('/api/employer', router);
 };
 
-  /*
-  module.exports = (app) => {
-    const employer = require("../controllers/employer.controller.js");
   
-    var router = require("express").Router();
-  
-    // Cria um novo funcionário
-    router.post("/", employer.createEmployer);
-  
-    // Retorna todos os funcionários
-    router.get("/", employer.findAllEmployer);
-
-    // Inner Join que retorna funcionáros associados com usuários
-    router.get("/employers-with-person", employer.findAllEmployerWithPerson); //foi necessário colocar esta rota antes da função findOneEmployerId para que funcionasse
-  
-    // Retorna um funcionário pelo ID
-    router.get("/:id_person", employer.findOneEmployerId);
-  
-    // Atualiza um funcionário pelo ID
-    router.put("/:id_person", employer.updateEmployer);
-  
-    // Deleta um funcionário pelo ID
-    router.delete("/:id_person", employer.deleteEmployerId);
-  
-    // Deleta todos os funcionários
-    router.delete("/", employer.deleteAllEmployer);
-  
-    app.use('/api/employer', router);
-  };
-  */

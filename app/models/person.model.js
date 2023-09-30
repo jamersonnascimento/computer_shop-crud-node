@@ -35,42 +35,6 @@ module.exports = (sequelize, Sequelize) => {
 };
 
 
-/*
-module.exports = (sequelize, Sequelize) => {
-    const Person = sequelize.define("person", {
-        id_person: {
-            type: Sequelize.INTEGER,
-            primaryKey: true,
-            autoIncrement: true
-        },
-        name: {
-            type: Sequelize.STRING(50),
-            allowNull: false
-        },
-        telephone: {
-            type: Sequelize.STRING(20),
-            allowNull: false
-        },
-        cpf: {
-            type: Sequelize.STRING(14),
-            allowNull: false
-        },
-        birthdate: {
-            type: Sequelize.DATE
-        }
-    }, {
-        tableName: 'Person'
-    });
-
-    // Configurar a associação com a tabela Address
-    Person.belongsTo(sequelize.models.address, {
-        foreignKey: 'id_address',
-        as: 'address'
-    });
-
-    return Person;
-};
-*/
 
 
 

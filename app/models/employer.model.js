@@ -35,42 +35,6 @@ module.exports = (sequelize, Sequelize) => {
 };
 
 
-/*
-module.exports = (sequelize, Sequelize) => {
-    const Employer = sequelize.define("employer", {
-        id_employer: {
-            type: Sequelize.INTEGER,
-            primaryKey: true,
-            autoIncrement: true
-        },
-        position: {
-            type: Sequelize.STRING(50),
-            allowNull: false
-        },
-        password: {
-            type: Sequelize.STRING(30),
-            allowNull: false
-        },
-        salary: {
-            type: Sequelize.FLOAT,
-            allowNull: false
-        },
-        hire_date: {
-            type: Sequelize.DATE
-        }
-    }, {
-        tableName: 'Employer' 
-    });
-
-    // Adicione a associação com o modelo Person
-    Employer.belongsTo(sequelize.models.person, {
-        foreignKey: 'id_person',
-        as: 'person'
-    });
-
-    return Employer;
-};
-*/
 
 
 

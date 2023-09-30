@@ -29,30 +29,4 @@ module.exports = (app) => {
     app.use('/api/buy_sell', router);
 };
 
-  /*
-  module.exports = (app) => {
-    const buy_sell = require("../controllers/buy_sell.controller.js");
   
-    var router = require("express").Router();
-  
-    // Cria uma nova compra/venda
-    router.post("/", buy_sell.createBuy_Sell);
-  
-    // Retorna todas as compra/vendas
-    router.get("/", buy_sell.findAllBuy_Sell);
-  
-    // Retorna uma compra/venda pelo ID
-    router.get("/:id_buy_sell", buy_sell.findOneBuy_SellId);
-  
-    // Atualiza uma compra/venda pelo ID
-    router.put("/:id_buy_sell", buy_sell.updateBuy_Sell);
-  
-    // Deleta uma compra/venda pelo ID
-    router.delete("/:id_buy_sell", buy_sell.deleteBuy_SellId);
-  
-    // Deleta todas as compra/vendas
-    router.delete("/", buy_sell.deleteAllBuy_Sell);
-  
-    app.use('/api/buy_sell', router);
-  };
-  */

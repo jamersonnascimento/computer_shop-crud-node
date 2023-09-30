@@ -36,36 +36,4 @@ module.exports = (app) => {
 };
 
 
-  /*
-  module.exports = (app) => {
-    const client = require("../controllers/client.controller.js");
   
-    var router = require("express").Router();
-  
-    // Cria um novo cliente
-    router.post("/", client.createClient);
-  
-    // Retorna todos os clientes
-    router.get("/", client.findAllClient);
-
-    // Inner Join que retorna clientes associados com usuários
-    router.get("/clients-with-person", client.findAllClientWithPerson); //foi necessário colocar esta rota antes da função findOneClientId para que funcionasse
-  
-    // Retorna um cliente pelo ID
-    router.get("/:id_client", client.findOneClientId);
-  
-    // Atualiza um cliente pelo ID
-    router.put("/:id_client", client.updateClient);
-  
-    // Deleta um cliente pelo ID
-    router.delete("/:id_client", client.deleteClientId);
-  
-    // Deleta todos os clientes
-    router.delete("/", client.deleteAllClient);
-
-    // Retorna restrições de crédito
-    router.get("/credit_restr", client.findCreditRestriction);
-  
-    app.use('/api/client', router);
-  };
-  */
