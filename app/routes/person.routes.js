@@ -12,9 +12,12 @@ module.exports = (app) => {
 
   // Retrieve all Persons.
   router.get("/", person.findAllUser);
-
+  
   // Retrieve Persons with associated Addresses.
-  router.get("/persons-with-address", person.findAllPersonWithAddress); // This route had to be placed before the findOneUserId function for it to work.
+  router.get("/address", person.findAllPersonWithAddress); // This route had to be placed before the findOneUserId function for it to work.
+  
+  // Retrieve Persons with a name columns
+  router.get("/:name", person.findByName);
 
   // Retrieve a Person by their ID.
   router.get("/:id_person", person.findOneUserId);

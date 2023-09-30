@@ -138,11 +138,25 @@ exports.findAllPersonWithAddress = (req, res) => {
     });
   });
 };
+// Function to find a specific name and return all that are associated with the name
+exports.findByName = (req, res) => {
+  const name = req.params.name;
 
-
-
-
-
-
-
-
+  Person.findAll({ where: { name: { [Op.like]: `%${name}%` } } })
+    .then((data) => {
+      if (data) {
+        res.send(data);
+      } else {
+        res.status(404).send({
+          message: `Não foi possível encontrar o usuário com o nome = ${name}.`,
+        });
+      }
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message: `Ocorreu um erro ao buscar o usuário com o nome = ${name}.`,
+        error: err.message,
+      });
+    });
+};
+   
