@@ -26,13 +26,10 @@ db.sequelize = sequelize;
 db.Address = require("./address.model.js")(sequelize, Sequelize);
 db.Person = require("./person.model.js")(sequelize, Sequelize);
 db.Employer = require("./employer.model.js")(sequelize, Sequelize);
+
+//In the future, needs to improve this relation Many to Many. Now, don't work... (I will post more information about it)
 db.Client = require("./client.model.js")(sequelize, Sequelize);
 db.Buy_Sell = require("./buy_sell.model.js")(sequelize, Sequelize);
-
-/* In the future, needs to improve this relation Many to Many. Now, don't work...
-db.Client.belongsToMany(Employer, { through: 'Buy_Sell' });   
-db.Employer.belongsToMany(Client, { through: 'Buy_Sell' });
-*/
 
 module.exports = db; // Export the db object.
 
