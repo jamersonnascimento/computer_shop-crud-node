@@ -121,7 +121,7 @@ Below, you'll find detailed instructions on how to install and configure the pro
 
    Be sure to refer to the [Configuration](#configuration) section for additional details on adjusting project-specific settings if necessary.
 
-# 5. Usage (to be implemented later!)
+# 5. Usage (will be implemented later!)
 
 # 6. Features
 
