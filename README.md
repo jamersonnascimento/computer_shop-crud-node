@@ -17,6 +17,7 @@ Sequelize, Node.js, Express, Javascript, HTML, CSS (learning)
 
 - **Project Name:** Computer Shop API
 - **Description:** CRUD API using Sequelize with the PostgreSQL database
+- **Archteture:** MVC
 - **Author:** Jamerson Nascimento
 - **Creation Date:** 09/30/2023
 - **Version:** 1.03
