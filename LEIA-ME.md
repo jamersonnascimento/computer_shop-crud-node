@@ -59,9 +59,25 @@ Para o servidor com as seguintes especificações mínimas:
   - Express (framework Node.js).
   - Sequelize (ORM).
   - Outras bibliotecas e módulos específicos da aplicação.
+ 
+ # 4. Tecnologias Utilizadas
+
+1. **Node.js**: É a plataforma de tempo de execução JavaScript que permite a construção do lado do servidor de aplicações web. É amplamente utilizado para aplicativos web e API RESTful devido à sua eficiência e escalabilidade.
+
+2. **Express.js**: É um framework web para Node.js que simplifica o desenvolvimento de aplicativos web e APIs. Ele oferece recursos para criar rotas, lidar com solicitações HTTP e gerenciar middleware.
+
+3. **JavaScript**: A linguagem de programação principal do lado do servidor e do lado do cliente em projetos web modernos.
+
+4. **Sequelize**: Uma biblioteca Node.js que é um ORM (Object-Relational Mapping) para bancos de dados relacionais. Facilita a interação com bancos de dados SQL, como MySQL, PostgreSQL ou SQLite, mapeando objetos JavaScript para tabelas de banco de dados.
+
+5. **Git**: Um sistema de controle de versão amplamente utilizado para rastrear as alterações no código-fonte e colaborar em projetos de software.
+
+6. **GitHub**: Uma plataforma de hospedagem de código-fonte que permite o armazenamento, colaboração e gerenciamento de projetos baseados em Git.
+
+Essas são as principais tecnologias e ferramentas utilizadas no projeto com base na estrutura de diretórios fornecida. É importante notar que a escolha de tecnologias pode variar dependendo dos requisitos específicos do projeto e das preferências da equipe de desenvolvimento. O Node.js e o Express.js são uma escolha comum para o desenvolvimento de aplicativos web devido à sua eficiência e popularidade na comunidade de desenvolvedores.
 
 
-# 4. Instalação e Configuração
+# 5. Instalação e Configuração
 
 A seguir, você encontrará instruções detalhadas sobre como instalar e configurar o projeto em um ambiente local.
 
@@ -119,11 +135,11 @@ Pronto! Agora o projeto está instalado e configurado em seu ambiente local.
 Lembre-se de consultar a seção de [Configuração](#configuração) para obter detalhes adicionais sobre como ajustar as configurações específicas do projeto, se necessário.
 
 
-# 5. Uso (implementar depois!)
+# 6. Uso (implementar depois!)
 
 
 
-# 6. Funcionalidades
+# 7. Funcionalidades
 
 * **Automatização:** A API CRUD automatiza a inserção de queries no banco de dados.
 * **Criação de Registros:** Crie novos registros em nossos bancos de dados de forma fácil e rápida.
@@ -138,7 +154,7 @@ Lembre-se de consultar a seção de [Configuração](#configuração) para obter
 * **Histórico de Dados:** Você pode implementar recursos de registro ou auditoria que registram as alterações feitas nos registros, rastreando quem fez as alterações e quando.
 
 
-# 7. Estrutura de Diretórios
+# 8. Estrutura de Diretórios
 
 ```
 computer_shop/ [pasta raíz]
@@ -202,23 +218,6 @@ Neste exemplo:
 - **`server.js`**: É o ponto de entrada da aplicação. Geralmente, ele configura o servidor web e inicia a aplicação.
 
 Esta estrutura de diretórios segue uma organização típica de projetos Node.js com Express.js, onde o código-fonte é dividido em controladores, modelos e rotas para melhor modularidade e manutenção. Além disso, os arquivos de configuração e o arquivo de manifesto são usados para configurar a aplicação e gerenciar dependências.
-
-
-# 8. Tecnologias Utilizadas
-
-1. **Node.js**: É a plataforma de tempo de execução JavaScript que permite a construção do lado do servidor de aplicações web. É amplamente utilizado para aplicativos web e API RESTful devido à sua eficiência e escalabilidade.
-
-2. **Express.js**: É um framework web para Node.js que simplifica o desenvolvimento de aplicativos web e APIs. Ele oferece recursos para criar rotas, lidar com solicitações HTTP e gerenciar middleware.
-
-3. **JavaScript**: A linguagem de programação principal do lado do servidor e do lado do cliente em projetos web modernos.
-
-4. **Sequelize**: Uma biblioteca Node.js que é um ORM (Object-Relational Mapping) para bancos de dados relacionais. Facilita a interação com bancos de dados SQL, como MySQL, PostgreSQL ou SQLite, mapeando objetos JavaScript para tabelas de banco de dados.
-
-5. **Git**: Um sistema de controle de versão amplamente utilizado para rastrear as alterações no código-fonte e colaborar em projetos de software.
-
-6. **GitHub**: Uma plataforma de hospedagem de código-fonte que permite o armazenamento, colaboração e gerenciamento de projetos baseados em Git.
-
-Essas são as principais tecnologias e ferramentas utilizadas no projeto com base na estrutura de diretórios fornecida. É importante notar que a escolha de tecnologias pode variar dependendo dos requisitos específicos do projeto e das preferências da equipe de desenvolvimento. O Node.js e o Express.js são uma escolha comum para o desenvolvimento de aplicativos web devido à sua eficiência e popularidade na comunidade de desenvolvedores.
 
 # 9. Contribuição
 
