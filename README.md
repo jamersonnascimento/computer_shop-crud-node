@@ -63,8 +63,24 @@ For the server with the following minimum specifications:
   - Express (Node.js framework).
   - Sequelize (ORM).
   - Other application-specific libraries and modules.
+ 
+# 4. Technologies Used
 
-# 4. Installation and Configuration
+1. **Node.js**: It is the JavaScript runtime platform that allows server-side development of web applications. It is widely used for web applications and RESTful APIs due to its efficiency and scalability.
+
+2. **Express.js**: It is a web framework for Node.js that simplifies web application and API development. It offers features for creating routes, handling HTTP requests, and managing middleware.
+
+3. **JavaScript**: The primary programming language for both server-side and client-side development in modern web projects.
+
+4. **Sequelize**: A Node.js library that is an Object-Relational Mapping (ORM) for relational databases. It facilitates interaction with SQL databases like MySQL, PostgreSQL, or SQLite by mapping JavaScript objects to database tables.
+
+5. **Git**: A widely used version control system for tracking changes in source code and collaborating on software projects.
+
+6. **GitHub**: A source code hosting platform that allows storage, collaboration, and management of Git-based projects.
+
+These are the main technologies and tools used in the project based on the provided directory structure. It's important to note that the choice of technologies may vary depending on the specific project requirements and the preferences of the development team. Node.js and Express.js are a common choice for web application development due to their efficiency and popularity in the developer community.
+
+# 5. Installation and Configuration
 
 Below, you'll find detailed instructions on how to install and configure the project in a local environment.
 
@@ -122,9 +138,9 @@ Below, you'll find detailed instructions on how to install and configure the pro
 
    Be sure to refer to the [Configuration](#configuration) section for additional details on adjusting project-specific settings if necessary.
 
-# 5. Usage (will be implemented later!)
+# 6. Usage (will be implemented later!)
 
-# 6. Features
+# 7. Features
 
 * **Automation:** The CRUD API automates database query insertion.
 * **Record Creation:** Easily and quickly create new records in our databases.
@@ -138,7 +154,7 @@ Below, you'll find detailed instructions on how to install and configure the pro
 * **Efficiency:** Simplifies data management operations, saving time and resources. Users can interact with the system more effectively and productively.
 * **Data History:** You can implement logging or auditing features that record changes made to records, tracking who made the changes and when.
 
-# 7. Directory Structure
+# 8. Directory Structure
 
 ```
 computer_shop/ [root folder]
@@ -203,22 +219,6 @@ In this example:
 - **`server.js`**: This is the entry point of the application. It typically configures the web server and starts the application.
 
 This directory structure follows a typical organization of Node.js projects with Express.js, where source code is divided into controllers, models, and routes for better modularity and maintenance. Additionally, configuration files and the manifest file are used to configure the application and manage dependencies.
-
-# 8. Technologies Used
-
-1. **Node.js**: It is the JavaScript runtime platform that allows server-side development of web applications. It is widely used for web applications and RESTful APIs due to its efficiency and scalability.
-
-2. **Express.js**: It is a web framework for Node.js that simplifies web application and API development. It offers features for creating routes, handling HTTP requests, and managing middleware.
-
-3. **JavaScript**: The primary programming language for both server-side and client-side development in modern web projects.
-
-4. **Sequelize**: A Node.js library that is an Object-Relational Mapping (ORM) for relational databases. It facilitates interaction with SQL databases like MySQL, PostgreSQL, or SQLite by mapping JavaScript objects to database tables.
-
-5. **Git**: A widely used version control system for tracking changes in source code and collaborating on software projects.
-
-6. **GitHub**: A source code hosting platform that allows storage, collaboration, and management of Git-based projects.
-
-These are the main technologies and tools used in the project based on the provided directory structure. It's important to note that the choice of technologies may vary depending on the specific project requirements and the preferences of the development team. Node.js and Express.js are a common choice for web application development due to their efficiency and popularity in the developer community.
 
 # 9. Contribution
 
