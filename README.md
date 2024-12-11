@@ -293,6 +293,5 @@ We appreciate all our contributors, community developers, and everyone who teste
 Thank you all for being part of this journey with us!
 ```
 
-If you need further assistance or have any questions, feel free to ask!
 
 
